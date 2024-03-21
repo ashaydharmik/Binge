@@ -41,6 +41,7 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- Animation CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> 
 </head>
 
 <body>
@@ -937,6 +938,7 @@
                   <div>
                     <button type="submit" class="btn submit-btn text-light bg__Black px-3 py-2"
                       onclick="validateAndSubmitForm(event)" name="contact-submit">Submit</button>
+                     
                   </div>
                   <div>
                     <a id="goBackButton" class="btn submit-btn text__Black px-3 py-2" style="display:none;"
@@ -944,6 +946,7 @@
                       <i class="bi bi-arrow-up short"></i>Go Back
                     </a>
                   </div>
+                  
                 </div>
               </form>
             </div>
@@ -983,15 +986,18 @@
             <div class="mb-3">
               <textarea name="message" class="form-control" rows="3" placeholder="Type your message here.."></textarea>
             </div>
-            <div class="text-center">
+            <div class="text-center" id="form-btn">
               <button type="submit" class="btn submit-btn  bg__Black text-light px-5 py-2"
                 name="modal-submit">Submit</button>
+               
             </div>
           </form>
         </div>
       </div>
     </div>
   </div>
+
+ 
 
   <!---------------- footer ------------------>
   <footer class="footer__bg text__Black text-center p-4 fs-5">
@@ -1041,6 +1047,9 @@
       <p>© 2024 Binge Production. All Rights Reserved</p>
     </div>
   </footer>
+
+
+ 
 
   <!------- Additional Scripts ------------>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>

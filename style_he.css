@@ -123,19 +123,17 @@ html {
 
 #language-select {
     background: transparent;
-    /* border: 1px solid; */
+    border: 1px solid;
     padding: 3px;
     border-radius: 10px;
     cursor: pointer;
     font-size: 17px;
-    border: none;
-    outline: none;
+    /* border: none; */
+    /* outline: none; */
 }
 #language-select option{
     border: none;
   }
-  
-
 
 @media(min-width:768px) {
     .me-xl-5 {
@@ -1148,3 +1146,10 @@ button.slick-disabled {
         width: 50% !important;
     }
 }
+
+@media(max-width:768px) {
+  
+    .navbar-nav{
+      align-items: flex-start;
+    }
+  }

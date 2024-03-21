@@ -191,3 +191,12 @@ function changeLanguage() {
 
   // Add event listener to the language selector
   document.getElementById("language-select").addEventListener("change", changeLanguage);
+
+
+  //scroll button
+  // Get the button:
+  function scrollToTop() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+  
