@@ -123,11 +123,16 @@ html {
 
 #language-select {
   background: transparent;
-  border: 1px solid;
+  /* border: 1px solid; */
   padding: 3px;
   border-radius: 10px;
   cursor: pointer;
   font-size: 17px;
+  border: none;
+}
+
+#language-select option{
+  border: none;
 }
 
 /* ------------------- footer ------------------------------- */
