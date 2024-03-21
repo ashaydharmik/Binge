@@ -129,6 +129,7 @@ html {
     cursor: pointer;
     font-size: 17px;
     border: none;
+    outline: none;
 }
 #language-select option{
     border: none;
